@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+html, body {
+	height:100%;
+	margin:0;
+	padding:0;
+	background: #000 url ("bg.jpg") no repeat center top;
+	}
+
+#wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+h1 {font-size: 72px;
+	color: white;
+	font-family: Georgia, serif;
+	margin:10px;
+	}
+	
+h2 {
+	font-size:25 px;
+	color: #8CF0EF;
+	font-family: Georgia, serif;
+	padding:10px;
+	}
+body {background-image:url(bg.jpg)}
+
+nav {
+	padding: 10px;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	color: #133450;
+	font-size: 30px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+	margin: 0 30px;
+}
+nav a {
+	color: #133450;
+	font-size:30px;
+	text-decoration:none;
+	font-weight: bold;
+	font-family: 'Permanent Marker', cursive;
+}
+nav a:hover {
+	color: white;
+}
+
+figcaption {
+	color:white;
+	text-align: center;
+	font-family: arial, sans-serif;
+	font-size: 90%;
+	border: white;
+	border: 1px;
+}
+
+figure {
+	float: left;
+	padding: 10px;
+	background-color: #000;
+	width: 25%;
+	margin: 3%;
+	border: 1px solid white;
+}
+
+article {
+	margin: 1px;
+}
+
+	section {
+	background-color:rgba(0,0,0,0.3);
+}
+.welcome {
+	padding: 10px 15px;
+	margin: 20px 0;
+overflow: auto;}
+
+#logo {
+	text-align: center
+}
+
+footer {
+	background-color: transparent;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	clear: both;
+}
+footer a {
+	color: #8CF0EF;
+}
+
+	
