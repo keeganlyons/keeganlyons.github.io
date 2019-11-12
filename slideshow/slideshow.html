@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="slideshow.css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+
+<style>
+
+</style>
+</head>
+<body>
+
+<h2>Responsive navigation menu</h2>
+<p>Resize the browser window to see the effect: When the screen is less than 600px, the navigation menu will be displayed vertically instead of horizontally.</p>
+
+<nav>
+<div class="topnav">
+<ul>
+ <li><a href="#">Home</a></li>
+ <li><a href="#">About</a></li>
+ <li><a href="#">Friends</a></li>
+<li><a href="#">Family</a></li>
+<li><a href="#">Contact</a></li>
+</ul>	
+</div>
+</nav>
+
+<section>
+
+<div id="main">
+
+		<div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/monkey.jpg" data-thumb="images/monkey.jpg" alt="" />
+                <a href="http://dev7studios.com"><img src="images/stepbrothers.jpg" data-thumb="images/stepbrothers.jpg" alt="" title="This is an example of a caption" /></a>
+                <img src="images/ricky.jpg" data-thumb="images/ricky.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/spicoli.jpg" data-thumb="images/spicoli.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+		
+	<p>This is the main content.</p>
+
+</div>
+
+
+
+
+
+<div id="side">
+	<p>This is the side content.</p>	
+</div>
+
+</section>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+</html>
